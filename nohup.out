@@ -1,0 +1,53 @@
+Invalid MINING_REWARD value in environment. Using default value of 10.
+Invalid MINING_REWARD value in environment. Using default value of 10.
+2025-06-06 03:35:45 [32minfo[39m: [32mPrivate key imported successfully[39m
+2025-06-06 03:35:45 [31merror[39m: [31mFailed to initialize matrix[39m
+
+❌ Error in Matrix initialization:
+🔧 How to fix:
+1. General troubleshooting steps:
+   • Check logs for details
+   • Verify all dependencies are installed
+   • Ensure correct Node.js version (>=14.18.0)
+2. Clean and rebuild:
+   • rm -rf node_modules/
+   • npm cache clean --force
+   • npm install
+3. If problem persists:
+   • Check GitHub issues
+   • Report bug with error details
+Failed to start miner: ModuleError: Database is not open
+    at maybeError (/project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:806:27)
+    at ClassicLevel.get (/project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:282:9)
+    at /project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:278:29
+    at [undefer] (/project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:755:7)
+    at /project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:163:25 {
+  code: 'LEVEL_DATABASE_NOT_OPEN'
+}
+Invalid MINING_REWARD value in environment. Using default value of 10.
+2025-06-06 03:36:53 [32minfo[39m: [32mPrivate key imported successfully[39m
+2025-06-06 03:36:53 [31merror[39m: [31mFailed to initialize matrix[39m
+
+❌ Error in Matrix initialization:
+🔧 How to fix:
+1. General troubleshooting steps:
+   • Check logs for details
+   • Verify all dependencies are installed
+   • Ensure correct Node.js version (>=14.18.0)
+2. Clean and rebuild:
+   • rm -rf node_modules/
+   • npm cache clean --force
+   • npm install
+3. If problem persists:
+   • Check GitHub issues
+   • Report bug with error details
+Failed to start miner: ModuleError: Database is not open
+    at maybeError (/project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:806:27)
+    at ClassicLevel.get (/project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:282:9)
+    at /project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:278:29
+    at [undefer] (/project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:755:7)
+    at /project/sandbox/user-workspace/seirchain/node_modules/abstract-level/abstract-level.js:163:25 {
+  code: 'LEVEL_DATABASE_NOT_OPEN'
+}
+Invalid MINING_REWARD value in environment. Using default value of 10.
+2025-06-06 03:37:55 [32minfo[39m: [32mPrivate key imported successfully[39m
