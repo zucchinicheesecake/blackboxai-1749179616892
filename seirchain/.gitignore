@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+# yarn.lock
+
+# Environment files - CRITICAL: DO NOT COMMIT THESE if they contain secrets
+.env
+.env.*
+!.env.example
+
+# Application Data / Logs
+data/
+!data/.gitkeep
+coverage/
+*.log
+logs/
+!logs/.gitkeep
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Build output (if any)
+dist/
+build/
+out/
+
+# Test reports
+junit.xml
+test-results/
+
+# Other
+wallet.dat
+*.backup.*
+onboarded-wallets/
+!onboarded-wallets/.gitkeep
