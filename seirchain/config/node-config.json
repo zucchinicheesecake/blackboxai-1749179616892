@@ -1,0 +1,9 @@
+{
+  "nodeType": "validator",
+  "port": 6001,
+  "address": "seire301419564d8a46e49a901da69f967e8a6d6",
+  "publicKey": "02e3d1f746a15f951a36271151fc6a1e82281f79f4391033c4639c2b403da63d79",
+  "initialPeers": [],
+  "networkId": "seirchain-mainnet",
+  "created": "2025-06-06T02:43:20.557Z"
+}
