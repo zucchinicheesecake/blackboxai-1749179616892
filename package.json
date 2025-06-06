@@ -1,0 +1,17 @@
+{
+  "name": "seirchain",
+  "version": "1.0.0",
+  "description": "SeirChain TriadMatrix project",
+  "main": "seirchain/src/cli/seirchain-cli.js",
+  "scripts": {
+    "mine": "node seirchain/src/cli/seirchain-cli.js --mine"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "level": "^7.0.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.10.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
